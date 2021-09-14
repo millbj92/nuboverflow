@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Nuboverflow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting started
+
+To get started using this app, all you have to do is follow the below steps:
+  - Make sure you have NodeJs installed.
+  - Clone the Repository
+  - run the command `npm install`
+  - after node_modules has been installed, simply run `npm start` to start the app.
+
+## Contributing
+This project uses a git-flow structure.
+
+If this is your first contribution, you will be required to make a "fork" of the repository and submit your changes as a PR. If you are a part of the team, you will be able to just create a branch.
+
+**Please make sure your branch/fork is based off of 'develop'. The master branch is used as a source of truth.**
 
 ## Available Scripts
 
@@ -30,6 +43,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+
+**PR's submitted that have been ejected will be rejected. While it may be necessary to eject at some point, this is a team decision.**
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
