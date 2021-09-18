@@ -5,8 +5,8 @@ export const StyledNavbar = styled.nav`
     height: 4.5rem;
     background-image: linear-gradient(
         to top right,
-        ${(props) => props.theme.colorPrimary},
-        ${(props) => props.theme.colorPrimaryLight}
+        ${(props) => props.theme.colors.colorPrimary},
+        ${(props) => props.theme.colors.colorPrimaryLight}
     );
     display: flex;
     margin-left: auto;

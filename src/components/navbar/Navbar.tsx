@@ -1,6 +1,4 @@
 import * as React from 'react';
-<<<<<<< HEAD
-<<<<<<< HEAD
 import { NavContainer } from '../containers/NavContainer.style';
 import logo_name from '../../assets/images/logo_name.png';
 import Searchbar from '../searchbar/Searchbar';
@@ -13,10 +11,8 @@ import { faTrophyAlt } from '@fortawesome/pro-regular-svg-icons';
 import { NavUserContainer } from '../containers/NavUserContainer.style';
 import NavUser from '../nav-user/NavUser';
 import { faCertificate, faMedal } from '@fortawesome/pro-solid-svg-icons';
-import { useTheme } from 'styled-components';
 
 const Navbar: React.FC = () => {
-    const { colors } = useTheme();
     return (
         <NavContainer>
             <div style={{ display: 'flex', width: '100%' }}>
@@ -55,10 +51,7 @@ const Navbar: React.FC = () => {
                             >
                                 1
                             </span>
-                            <FontAwesomeIcon
-                                style={{ fontSize: '18px', color: colors.colorAccent }}
-                                icon={faCertificate}
-                            />
+                            <FontAwesomeIcon style={{ fontSize: '18px', color: 'gold' }} icon={faCertificate} />
                         </div>
                     </div>
                     <FontAwesomeIcon icon={faComment} />
@@ -74,26 +67,6 @@ const Navbar: React.FC = () => {
                 </NavButton>
             </NavButtonContainer>
         </NavContainer>
-=======
-=======
->>>>>>> master
-import { StyledNavbar } from './StyledNavbar';
-import logo_name from '../../assets/images/logo_name.png';
-import Searchbar from '../searchbar/Searchbar';
-import { ImageContainer } from '../containers/ImageContainer';
-
-const Navbar: React.FC = () => {
-    return (
-        <StyledNavbar>
-            <ImageContainer>
-                <img style={{ objectFit: 'contain', height: '100%' }} src={logo_name} />
-            </ImageContainer>
-            <Searchbar></Searchbar>
-        </StyledNavbar>
-<<<<<<< HEAD
->>>>>>> develop
-=======
->>>>>>> master
     );
 };
 
