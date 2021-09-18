@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { faSearch } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
@@ -24,6 +25,8 @@ const Searchbar: React.FunctionComponent = () => {
             </IconContainer>
             <SearchInput placeholder="Search..."></SearchInput>
 =======
+=======
+>>>>>>> master
 import * as React from 'react';
 import StyledSearchbar from './StyledSearchbar';
 
@@ -31,7 +34,10 @@ const Searchbar: React.FC = () => {
     return (
         <div style={{ height: '100%', display: 'flex', alignItems: 'center', flexGrow: 1 }}>
             <StyledSearchbar></StyledSearchbar>
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> master
         </div>
     );
 };

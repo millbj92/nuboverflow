@@ -1,5 +1,6 @@
 import * as React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { NavContainer } from '../containers/NavContainer.style';
 import logo_name from '../../assets/images/logo_name.png';
 import Searchbar from '../searchbar/Searchbar';
@@ -74,6 +75,8 @@ const Navbar: React.FC = () => {
             </NavButtonContainer>
         </NavContainer>
 =======
+=======
+>>>>>>> master
 import { StyledNavbar } from './StyledNavbar';
 import logo_name from '../../assets/images/logo_name.png';
 import Searchbar from '../searchbar/Searchbar';
@@ -87,7 +90,10 @@ const Navbar: React.FC = () => {
             </ImageContainer>
             <Searchbar></Searchbar>
         </StyledNavbar>
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> master
     );
 };
 

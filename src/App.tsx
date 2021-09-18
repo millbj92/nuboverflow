@@ -1,5 +1,6 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { ThemeProvider, createGlobalStyle, DefaultTheme } from 'styled-components';
 import Navbar from './components/navbar/Navbar';
 
@@ -17,6 +18,8 @@ const theme: DefaultTheme = {
 
 const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
 =======
+=======
+>>>>>>> master
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import Navbar from './components/navbar/Navbar';
 
@@ -30,7 +33,10 @@ const theme = {
 };
 
 const GlobalStyle = createGlobalStyle`
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> master
   * {
     box-sizing: border-box;
     margin: 0;
