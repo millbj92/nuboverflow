@@ -13,5 +13,8 @@ declare module 'styled-components' {
         colorDark: string;
         colorMedium: string;
         colorGray: string;
+        colorGold: string;
+        colorSilver: string;
+        colorBronze: string;
     }
 }

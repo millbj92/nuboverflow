@@ -11,6 +11,9 @@ const theme: DefaultTheme = {
         colorDark: '#0c1d40',
         colorMedium: '#224573',
         colorGray: '#babfc3',
+        colorGold: '#FEDE58',
+        colorSilver: '#9d9e9e',
+        colorBronze: '#CD7F32',
     },
 };
 
@@ -19,6 +22,11 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+
+  input {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
   }
 `;
 

@@ -10,7 +10,7 @@ export const NavButton = styled.button`
     border: none;
     transition: all 0.1s ease-out;
     cursor: pointer;
-
+    position: relative;
     & svg,
     span {
         font-size: 2rem;
